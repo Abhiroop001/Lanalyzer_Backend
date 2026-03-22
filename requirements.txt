@@ -4,9 +4,10 @@ python-multipart
 firebase-admin
 python-dotenv
 pydantic
-passlib[bcrypt]
-python-jose
+passlib[argon2]
+python-jose[cryptography]
 requests
 git+https://github.com/scaledown-team/scaledown.git
 tiktoken
 groq
+argon2-cffi
