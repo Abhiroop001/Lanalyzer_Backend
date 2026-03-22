@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ai-legislative-analyzer",
+  "private_key_id": "c8a1d6ccd285383a30d1206abc0a671001f6cb55",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7lZiWWcarikg7\n5eZAqCqHyaUtMs8hNsGIVRkUGyu/+KGHAdGtntTmEooddQDIRkLIHo2gVo2NQ9az\nKCTAGjzSOZD9KbBc6eyPMfNoDWutzvA8ZgZqx5Ojor3Zp1OY0F1kWw8NaTbm24ri\nb8zUEvefa+hE6Jgc8OLE+rjkhPGraYdP+F8p0WJXPupPU6no1k5fpevYuR0zamyp\nXuXMY+kxi47zDPT6VkQ5tnVCr21jZk4BQHgrQltAbYPx09D8YapWqclNPiB3CVi6\nc2VoFW1OSMk3rJdqoy1kUTh0UUUOJnSPskiMZRO01+8PoSjdha7H40e3Xwl1K7do\nP4ezizDvAgMBAAECggEAAYqvbwMzdFDDtjiak11TCnLPL2CPB2Z/mJDB6l3jqPMM\nHfYE8BZxmxUOEbEyRs6LUBzAvs+L39xJO/VL3SwMUcgCV7N5OtJEg9PrxblgOmce\ny+zbmaTt2e3OtKbA6n9mxj69EEo5u10CbW2VYQiOBJrGFUt6GbkUQurpekIzdyWK\npDSaLss/HBI1C/Jrjn5InZ4Lg/q+PSXfznzhFYILGOsunv2JbFIK2EwHlqoLtswf\n5zxhM1SYohZ0Xo5JvbzTqlbNlWiy/YNn5sAgVaNubRhQeTRY6YS3yyZK6WbtXvnQ\nwbiABQtzhysMjhZnx/uu+dWSuxwE2avC9WmykzCI0QKBgQDo8p/L20U/IZsroKDK\nNiJHeOAxqZWCaA1KrsnhCg/yoFEmN6dfCciwxWCJ5L7SF3Wg5pWZio4/hccUae96\nboRgJEdcIyye0k3gIr1KCpD6kFFjyf7qSMgj3l3DhNkuY43cOQkQFwEjnx063T11\n2iKIxjBB4TePvDbg47sJDmnfEQKBgQDOJcJxlAEQwr7hipgWXHMz7eSXLCFuGl/W\nEb98rqVJLiM85DHj85c9iod4OdLTC6bhWSH0Y+Xb6/fuQLsEsaWgr0sSuoR3qehj\n+twN1IOAPaGlRnO9bE8gQ2gJxY1hOk9lIMy3rGZHlFFcGvv7v5OT0bUyzGTwpy65\npaTrq8QP/wKBgQCZBcCY3opnhUD0cMkO7G6qOqozlW4EQyvwEk/FR6HgRRXpoAeP\nc9Lk5FOdYalEQ2re7nn5ab411kBHlatd5rmImmxSBz0pe4bypH9p4vUH08PTZH7T\nEkp+3XUEmgE86uLmdoUQj7wM1VoTMABOqaOj62UJ8dNY1U/LfW2A7nn3sQKBgE6Y\nAsv+m3FibhfbGSTdVmaj+hTQlGY/0+3vkkvc4dNGrdSXQ5Ye1rh1yjRCB2jC9nrP\n2qwsMgRosHu7XhHqELV0X3Dif4KH2rvTdnYnYYNQ/AHhHFtJodkxGccv9DjvXDm4\nCZS1O8FqgKJW/175qTAgMa8OUiWV97B7wKbBM9zNAoGBANoGrMiee0qh3+9RpGmm\nW9R3yyGgmRoge9uklf8ENSNuJjoAKRNAXB0UbY1y1ot9Gmx6t1UVJfSedcKxvFJc\ni7UAWq0EI4OYqEwyvlQ5kC2SZYOY4X+gUXDHiWN473w8rVDUq10FTjA084d+D60I\nXYlbxAZamvdTi99r1HCYsZ7O\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@ai-legislative-analyzer.iam.gserviceaccount.com",
+  "client_id": "110395386974520383625",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40ai-legislative-analyzer.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
