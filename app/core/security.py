@@ -3,25 +3,20 @@ from jose import jwt
 from app.config import settings
 from datetime import datetime, timedelta
 
-# Configure Passlib with bcrypt
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+# Use Argon2 instead of bcrypt
+pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
 def hash_password(password: str) -> str:
     """
-    Hash a password using bcrypt.
-    Bcrypt only supports up to 72 bytes, so truncate if necessary.
+    Hash a password using Argon2.
+    Argon2 supports long passwords without the 72-byte limit.
     """
-    if len(password.encode("utf-8")) > 72:
-        password = password[:72]
     return pwd_context.hash(password)
 
 def verify_password(password: str, hashed: str) -> bool:
     """
-    Verify a password against its hash.
-    Truncate if longer than 72 bytes to match bcrypt behavior.
+    Verify a password against its Argon2 hash.
     """
-    if len(password.encode("utf-8")) > 72:
-        password = password[:72]
     return pwd_context.verify(password, hashed)
 
 def create_token(data: dict) -> str:
